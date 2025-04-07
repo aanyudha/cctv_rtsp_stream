@@ -1,7 +1,7 @@
 Stream = require('node-rtsp-stream')
 stream = new Stream({
   name: 'name',
-  streamUrl: 'rtsp://admin:Micros321@192.168.20.224/ONVIF/MediaInput?profile=def_profile2', //sesuai resolusi 320x180
+  streamUrl: 'rtsp://xxx:xxx@xxx.xxx.xx.xxx/ONVIF/MediaInput?profile=def_profile2', //sesuai resolusi 320x180
   wsPort: 9999,
   ffmpegOptions: { // options untuk ffmpeg flags
     '-stats': '', // an option with no neccessary value uses a blank string
